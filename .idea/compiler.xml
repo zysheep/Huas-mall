@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mall-domain" />
+        <module name="mall-mybatis-generator" />
+        <module name="mall-commons" />
+        <module name="mall-web-api" />
+        <module name="mall-web-admin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Huas-mall" target="1.8" />
+      <module name="mall-admin" target="1.8" />
+      <module name="mall-commons" target="1.8" />
+      <module name="mall-domain" target="1.8" />
+      <module name="mall-mybatis-generator" target="1.8" />
+      <module name="mall-web-admin" target="1.8" />
+      <module name="mall-web-api" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Huas-mall" options="" />
+      <module name="mall-admin" options="-parameters" />
+      <module name="mall-commons" options="-parameters" />
+      <module name="mall-domain" options="-parameters" />
+      <module name="mall-mybatis-generator" options="-parameters" />
+      <module name="mall-web-admin" options="-parameters" />
+      <module name="mall-web-api" options="-parameters" />
+    </option>
+  </component>
+</project>
