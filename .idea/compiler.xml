@@ -7,31 +7,38 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mall-domain" />
-        <module name="mall-mybatis-generator" />
-        <module name="mall-commons" />
+        <module name="demo" />
         <module name="mall-web-api" />
+        <module name="mall-admin" />
         <module name="mall-web-admin" />
+        <module name="mall-mybatis-generator" />
+        <module name="mall-domain" />
+        <module name="mall-web-admins" />
+        <module name="mall-commons" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
       <module name="Huas-mall" target="1.8" />
       <module name="mall-admin" target="1.8" />
       <module name="mall-commons" target="1.8" />
       <module name="mall-domain" target="1.8" />
       <module name="mall-mybatis-generator" target="1.8" />
       <module name="mall-web-admin" target="1.8" />
+      <module name="mall-web-admins" target="1.8" />
       <module name="mall-web-api" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Huas-mall" options="" />
+      <module name="demo" options="-parameters" />
       <module name="mall-admin" options="-parameters" />
       <module name="mall-commons" options="-parameters" />
       <module name="mall-domain" options="-parameters" />
       <module name="mall-mybatis-generator" options="-parameters" />
       <module name="mall-web-admin" options="-parameters" />
+      <module name="mall-web-admins" options="-parameters" />
       <module name="mall-web-api" options="-parameters" />
     </option>
   </component>

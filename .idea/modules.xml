@@ -3,10 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Huas-mall.iml" filepath="$PROJECT_DIR$/.idea/Huas-mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-commons/mall-commons.iml" filepath="$PROJECT_DIR$/mall-commons/mall-commons.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-domain/mall-domain.iml" filepath="$PROJECT_DIR$/mall-domain/mall-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-mybatis-generator/mall-mybatis-generator.iml" filepath="$PROJECT_DIR$/mall-mybatis-generator/mall-mybatis-generator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-web-admin/mall-web-admin.iml" filepath="$PROJECT_DIR$/mall-web-admin/mall-web-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-web-admins/mall-web-admins.iml" filepath="$PROJECT_DIR$/mall-web-admins/mall-web-admins.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-web-api/mall-web-api.iml" filepath="$PROJECT_DIR$/mall-web-api/mall-web-api.iml" />
     </modules>
   </component>
